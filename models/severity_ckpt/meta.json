@@ -1,0 +1,11 @@
+{
+  "task": "severity_3class",
+  "hf_subdir": "hf",
+  "base_model_name": "nlpie/tiny-clinicalbert",
+  "id2label": {
+    "0": "Mild/Moderate",
+    "1": "Serious",
+    "2": "Fatal"
+  },
+  "notes": "Fine-tuned on VAD narratives (2020\u20132023\u21922024)."
+}
