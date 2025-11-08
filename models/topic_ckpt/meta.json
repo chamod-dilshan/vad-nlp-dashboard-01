@@ -1,0 +1,30 @@
+{
+  "model_type": "transformer",
+  "task": "topics_top3_multilabel",
+  "hf_subdir": "hf",
+  "label_space": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "T8",
+    "T9"
+  ],
+  "topic_labels": {
+    "T1": "Bleeding & Circulatory",
+    "T2": "Thrombosis & Pump Malfunction",
+    "T3": "Neurological Events",
+    "T4": "Infection & Sepsis",
+    "T5": "Device / Mechanical Failure",
+    "T6": "Cardiac / Hemodynamic Issues",
+    "T7": "Surgical / Post-op Complications",
+    "T8": "Systemic / Other Outcomes",
+    "T9": "Fatal Outcomes"
+  },
+  "top_k": 3,
+  "primary_metric": "micro_f1",
+  "best_transformer_name": "Transformer::tiny-clinicalbert"
+}
