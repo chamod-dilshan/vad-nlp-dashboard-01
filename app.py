@@ -62,9 +62,9 @@ SENTIMENT_ORDER = ["Non-negative/mild", "Negative", "Strongly Negative"]
 SEVERITY_ORDER  = ["Mild/Moderate", "Serious", "Fatal"]
 
 # Darker shades: green / blue / red
-DARK_GREEN = "#166534"  # green-800
-DARK_BLUE  = "#1e3a8a"  # blue-900
-DARK_RED   = "#7f1d1d"  # red-900
+DARK_GREEN = "#15803d"  # green-800
+DARK_BLUE  = "#1d4ed8"  # blue-900
+DARK_RED   = "#b91c1c"  # red-900
 
 SENTIMENT_COLORS = {
     "Non-negative/mild": DARK_GREEN,
