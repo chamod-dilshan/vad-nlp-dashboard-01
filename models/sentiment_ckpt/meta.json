@@ -1,7 +1,7 @@
 {
   "task": "sentiment_3class",
   "hf_subdir": "hf",
-  "base_model_name": "nlpie/tiny-clinicalbert",
+  "base_model_name": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
   "id2label": {
     "0": "Non-negative/mild",
     "1": "Negative",
