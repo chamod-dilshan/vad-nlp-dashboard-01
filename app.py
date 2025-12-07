@@ -9,9 +9,9 @@ import plotly.graph_objects as go
 from utils.loader import load_all_models
 from utils.inference import predict_single_label, predict_multilabel_topk
 
-# ------------------------------------------------------------
+# -------------------------------------------------------------
 # Page setup & lightweight styling
-# ------------------------------------------------------------
+# -------------------------------------------------------------
 st.set_page_config(page_title="VAD NLP Insights", page_icon="🫀", layout="wide")
 
 # Subtle page background + a title card (dark grey)
